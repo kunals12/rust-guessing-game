@@ -1,3 +1,5 @@
+mod array;
+
 // Import necessary modules from the standard library
 use std::io; // For handling input/output operations
 use std::cmp::Ordering; // For comparing numbers
@@ -45,4 +47,6 @@ fn main() {
             }
         }
     }
+
+    array::arrays_to_handle()
 }
